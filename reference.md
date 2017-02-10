@@ -8,9 +8,9 @@ permalink: /reference/
 {:toc}
 
 
-走向架构师之路
+杨伟光专栏
 =====================
-[走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)
+[杨伟光的简书](http://www.jianshu.com/u/2189bfc372e7)
 
 HTTP协议详解
 =====================
