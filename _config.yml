@@ -6,10 +6,10 @@ url: http://www.lintao.online
 resume_site: http://www.lintao.online/cv.html
 github: https://github.com/lintaoonline/
 baseurl: ""
-description: Actually, less is more!
+description: Actually, I'm not a Kobe fan!
 meta_description: 林韬;个人博客
 motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+banner: when i was young. they call me "小科比" ;
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -17,7 +17,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
+github_username: lintaoonline
 highlighter: Pygments
 
 # Build settings
