@@ -8,22 +8,17 @@ permalink: /reference/
 {:toc}
 
 
-杨伟光专栏
+anonymous66
 =====================
-[杨伟光的简书](http://www.jianshu.com/u/2189bfc372e7)
+[anonymous66的简书](http://www.jianshu.com/u/2189bfc372e7)
+
+前端大王
+=====================
+[王财源博客](http://oneseven.top/wordpress)
 
 HTTP协议详解
 =====================
 [HTTP协议详解](http://www.jmarshall.com/easy/http/)
-
-Axis 2.0的入门
-=====================
-[曹胜欢][http://blog.csdn.net/csh624366188/article/details/8362696](http://blog.csdn.net/csh624366188/article/details/8362696)
-
-高爽|Coder 
-=====================
-这个人的博客对java底层的东西研究比较深入。
-[http://blog.csdn.net/ghsau/article/details/20395681](http://blog.csdn.net/ghsau/article/details/20395681)
 
 [一线码农]
 =====================
@@ -65,8 +60,3 @@ Linux中文输入法，node.js开发指南的原作者。14年大学本科清华
 =====================
 多线程相关写的比较好
 [http://blog.csdn.net/axman/article/category/894625](http://blog.csdn.net/axman/article/category/894625)
-
-[旺仔专栏]
-=====================
-Windows下FFmpeg快速入门
-[http://blog.csdn.net/hemingwang0902/article/details/4382429](http://blog.csdn.net/hemingwang0902/article/details/4382429)
