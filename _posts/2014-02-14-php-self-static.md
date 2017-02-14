@@ -3,7 +3,7 @@ layout: post
 title:  "PHP中new static()与new self()的区别!"
 date:   2017-2-14 11:11:01 +0800
 categories: PHP
-tag: 面试
+tag: 经典面试
 ---
 
 * content
@@ -14,18 +14,24 @@ static:指向`使用static的类`，只有通过继承后，才能体现出stati
 
 ```PHP
 class A {
-	public  function  getSelf(){
+    public static function get_self() {
         return new self();
     }
 
-    public  function  getStatic(){
+    public static function get_static() {
         return new static();
     }
 }
-class B extends A{}
-var_dump((new B())->getSelf());//A
-var_dump((new B())->getStatic());//B
+
+class B extends A {}
+
+echo get_class(B::get_self());  // A
+echo get_class(B::get_static()); // B
+echo get_class(A::get_self()); // A
+echo get_class(A::get_static()); // A
 ```
+
+[stackoverflow:New self vs. new static](http://stackoverflow.com/questions/5197300/new-self-vs-new-static) 
 
 
 
