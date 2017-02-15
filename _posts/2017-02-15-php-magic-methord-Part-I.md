@@ -86,7 +86,8 @@ function __unset($param){
  
 
 最后补充一个完整的实例：
-```
+
+```PHP
 <?php  
 class Person {  
     private $name;  
