@@ -85,8 +85,8 @@ function __unset($param){
 ```
  
 
-最后补充一个完整的实例
-```PHP
+最后补充一个完整的实例：
+```
 <?php  
 class Person {  
     private $name;  
@@ -121,12 +121,11 @@ echo $p->name;
 ```
 
 输出结果为:
-```PHP
 isset()函数测定私有成员时，自动调用
 LinDD
 当在类外部使用unset()函数来删除私有成员时自动调用的
 isset()函数测定私有成员时，自动调用
-```
+
 
 
 如有不对，请指正！
