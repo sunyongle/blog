@@ -19,27 +19,27 @@ class Person{
 	public static $country  = '中国';
 	
 	static function say(){
-		//内部访问静态成员属性
-		echo "我是".self::$country."人<br />";
+	//内部访问静态成员属性
+	echo "我是".self::$country."人<br />";
 	}
 }
 
 
 class Worker extends Person{
 	function study(){
-		echo "我也来自".parent::$country."<br />";
+	echo "我也来自".parent::$country."<br />";
 	}
 }
 
 
-echo Person::$country."<br />";			//中国
+echo Person::$country."<br />";				//中国
 Person::say();						//我是中国人
 
 $p = new Person();
 //$p->country; 错误写法！！！
 $p->say();						//我是中国人
 
-echo Worker::$country."<br />";			//中国
+echo Worker::$country."<br />";				//中国
 $p2 = new Worker();
 $p2->study();						//我也来自中国
 ```
