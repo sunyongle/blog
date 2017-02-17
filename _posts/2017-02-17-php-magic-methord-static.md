@@ -8,8 +8,8 @@ tag: 经典面试
 
 * content
 {:toc}
-静态static
----
+## 静态static
+
 
 把类成员或方法申明为static，就可以不实例化类而直接访问，不能通过一个对象实例来访问静态成员（静态方法除外），静态成员属于类，不属于任何对象实例，但类的对象实例都能共享。
 
@@ -27,19 +27,19 @@ class Person{
 
 class Worker extends Person{
 	function study(){
-	echo "我也来自".parent::$country."<br />";
-}
+		echo "我也来自".parent::$country."<br />";
+	}
 }
 
 
-echo Person::$country."<br />";		//中国
+echo Person::$country."<br />";			//中国
 Person::say();						//我是中国人
 
 $p = new Person();
 //$p->country; 错误写法！！！
-$p->say();							//我是中国人
+$p->say();						//我是中国人
 
-echo Worker::$country."<br />";		//中国
+echo Worker::$country."<br />";			//中国
 $p2 = new Worker();
 $p2->study();						//我也来自中国
 ```
