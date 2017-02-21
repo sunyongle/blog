@@ -8,5 +8,4 @@ tag: 最佳实践
 
 * content
 {:toc}
-[最佳实践](https://lintaoonline.github.io/html/test.html)
-[test](www.baidu.com)
+[PHP最佳实践](https://lintaoonline.github.io/html/BestPractice/BestPractice.html)
