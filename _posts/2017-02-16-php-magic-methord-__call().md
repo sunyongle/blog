@@ -3,7 +3,7 @@ layout: post
 title:  "PHP魔术方法__call()用法分析"
 date:   2017-2-16 10:25:01 +0800
 categories: PHP
-tag: 经典面试
+tag: 入门
 ---
 
 * content

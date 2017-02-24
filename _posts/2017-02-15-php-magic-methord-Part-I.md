@@ -3,7 +3,7 @@ layout: post
 title:  "PHP魔术方法__set __get __isset __unset用法分析"
 date:   2017-2-15 16:06:01 +0800
 categories: PHP
-tag: 经典面试
+tag: 入门
 ---
 
 * content

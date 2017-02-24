@@ -3,7 +3,7 @@ layout: post
 title:  "PHP中new static()与new self()的区别!"
 date:   2017-2-14 11:11:01 +0800
 categories: PHP
-tag: 经典面试
+tag: 入门
 ---
 
 * content

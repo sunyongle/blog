@@ -3,7 +3,7 @@ layout: post
 title:  "PHP 类的静态成员属性与静态方法 static 关键字"
 date:   2017-2-17 14:56:01 +0800
 categories: PHP
-tag: 经典面试
+tag: 入门
 ---
 
 * content
