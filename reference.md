@@ -16,7 +16,7 @@ permalink: /reference/
 
 [前端大王]
 =====================
-[王财源博客](http://oneseven.top/blog/)
+[王财源博客](http://oneseven.top/)
 
 HTTP协议详解
 =====================
