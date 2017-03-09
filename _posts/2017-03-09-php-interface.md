@@ -64,9 +64,8 @@ interface IUser{
 
 
 class VipUser implements IUser{				
-											//通过implements实现
-	private $discount = 0.8;				//实现多个接口class VipUser implements IUser,IUser2{}
-	
+	private $discount = 0.8;				//通过implements实现
+											//实现多个接口class VipUser implements IUser,IUser2{}
 	public function getDiscount(){			//子类必须全部实现接口中的方法
 		return $this->discount;
 	}
