@@ -12,7 +12,7 @@ tag: 入门
 ### 对象接口
 
 继承特性简化了对象、类的创建，增强了代码的可重性。但PHP只支持单继承，如果想实现多重继承就只能使用类的`接口(interface)`。
-那么什么是[接口](http://www.php.net/manual/zh/language.oop5.interfaces.php),如果一个抽象类里面所有的方法都是[抽象方法](https://lintaoonline.github.io/2017/02/24/php-abstract/),并且没有声明变量（可声明常量）,而且其中的所有的成员权限都是`public`，那么这种特殊的抽象类就是接口，一般约定接口总以字母 I 或者 i 开头。
+那么什么是[接口](http://www.php.net/manual/zh/language.oop5.interfaces.php) ，如果一个抽象类里面所有的方法都是[抽象方法](https://lintaoonline.github.io/2017/02/24/php-abstract/),并且没有声明变量（可声明常量），而且其中的所有的成员权限都是`public`，那么这种特殊的抽象类就是接口，一般约定接口总以字母 I 或者 i 开头。
 
 
 ### 定义
@@ -63,9 +63,10 @@ interface IUser{
 }
 
 
-class VipUser implements IUser{				//通过implements实现，实现多个接口class VipUser implements IUser,IUser2{}
-	private $discount = 0.8;
-
+class VipUser implements IUser{				
+											//通过implements实现
+	private $discount = 0.8;				//实现多个接口class VipUser implements IUser,IUser2{}
+	
 	public function getDiscount(){			//子类必须全部实现接口中的方法
 		return $this->discount;
 	}
@@ -82,7 +83,7 @@ class Good{
 	function buy($user){
 		$discount = $user->getDiscount();
 		$usertype = $user->getUserType();
-        echo $usertype."商品价格：".$this->price*$discount;
+        	echo $usertype."商品价格：".$this->price*$discount;
 	}
 }
 
