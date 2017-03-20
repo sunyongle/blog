@@ -1,15 +1,14 @@
 # Site settings
-name: Less Or More
-email: 309712560@qq.com
-author: Lin Tao
-url: http://www.lintao.online
-resume_site: http://www.lintao.online/cv.html
-github: https://github.com/lintaoonline/
+name: cattei
+email: 12777894@qq.com
+author: Yongle Sun
+url: 
+resume_site: 
+github: https://github.com/sunyongle/
 baseurl: ""
 description: Actually, I'm not a Kobe fan!
-meta_description: 林韬;个人博客
-motto: Never underestimate the heart of a champion.
-banner: when i was young. they call me "小科比" ;
+meta_description: 孙永乐;个人博客
+motto: Just Do It;
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
